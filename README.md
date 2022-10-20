@@ -16,7 +16,7 @@ This program will only works on **Linux** systems and I believe it would be work
 - [x] Users can decide which interface they want to change (*Wireless or Ethernet*).
 - [x] Program can set a completely random mac:
     - This random mac can be just randomly selected from hex characters.
-    - Or it can be based on **Standard OUI from IEEE** which you can access it from here ([Text File](http://standards-oui.ieee.org/oui/oui.txt) and [CSV File](http://standards-oui.ieee.org/oui/oui.csv)).
+    - Or it can be based on **Standard OUI from IEEE** which you can access it
 - [x] Original mac address of interfaces will be save at ```/tmp/``` so user can reverse mac address back to normal choose reverse option.
 - [x] Commands for apply these changes are different based on kernel version. Program can detect it and run different kind of codes. (Ubuntu 18.04's kernel version is 4.15)
 - [x] There are more than 17K names of organizations with different OUIs which is alot to process and show users to choose from them. I used **prompt_toolkit** library to auto-complete names for searching in OUIs. 
@@ -76,5 +76,3 @@ python mac-changer.py
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
